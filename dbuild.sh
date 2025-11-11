@@ -1,5 +1,6 @@
 # c
 gcc -o c/hello_world.c.o c/hello_world.c -std=c23;
+gcc -o c/parallel_task.c.o c/parallel_task.c -g -O0 -std=c23 -lpthread;
 
 # --------------------------------------------------------- #
 
